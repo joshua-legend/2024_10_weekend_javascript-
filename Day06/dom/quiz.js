@@ -1,8 +1,8 @@
-const position = ["positiony", "z-index", "top", "bottom", "right", "Flexbox properties", "float", "clear"];
-const display = ["display", "opacity", "transform"];
-const clipping = ["overflow", "clipping"];
-const animation = ["animation", "transition"];
-const box = ["margin", "box-shadow", "border", "border-radius", "box-sizing", "width", "height", "padding"];
+// data.js - 변수 모으기 - 배열형 오브젝트 {제목,색상,버튼리스트}
+// func.js - 함수 모으기 - 최소단위로 함수를 만들고 실행함
+// style.js - css 관련 모으기 - 쌩css를 이름 붙히면서 바꿈
+
+// index.js - 최종 모음집
 
 const makeTemplate = (titleName, color, buttonList) => {
   const card = document.createElement("section");
